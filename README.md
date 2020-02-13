@@ -10,5 +10,5 @@
 
 ## TextToAudio.py
 运行TextToAudio.py，也会自动运行，调用translate.py程序并获取相关信息。
-向百度翻译的/gettts发送相关请求，接受二进制音频文件，并保存在 $File_Dir$/Audio/en 和 $File_Dir$/Audio/zh 下
+向百度翻译的/gettts发送相关请求，接受二进制音频文件，并保存在 $File_Dir$/Audio/en 和 $File_Dir$/Audio/zh 下。
 en中保存英语语音，zh中保存中文语音，若不存在Audio文件夹，程序会自动创建。
