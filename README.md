@@ -2,7 +2,8 @@
 通过逆向js访问百度翻译v2transapi获取翻译值，并且请求gettts获取audio文件
 
 
-## trasnlate.pymain
+
+## trasnlate.py
 运行translate.py，会自动调用当前文件夹下的bdfy_sign.js，此js是将输入要查询的字符串转换为sign码。
 因为有main函数接口所以会自动运行，命令行中输入任意字符串即可获取相对于的英文/中文，并自动在user_log.txt中生成部分记录。
 承诺：整个代码中不含任何恶意代码及收集信息和发送任何隐私数据。
